@@ -1,2 +1,15 @@
 # ICS-33-Working-with-SQL
 Using SQL to manage a database about the world
+This project will ask you to write a program that is primarily tasked with querying and updating a SQLite database that contains information about airports from around the world, mainly from the perspective of pilots flying into and out of them. As is often the case when you first start working in an area that's new to you — unless you're a trained pilot or a flight simulator enthusiast, it's likely that you know little or nothing about airports, runways, radio frequencies, and so on — your first order of business is familiarizing yourself with the problem domain. You don't need to become an immediate expert, but you definitely need to achieve at least a passing familiarity with the important concepts and the common terminology used to describe them. When you'll be using a database as part of your work, you'll also want to acquaint yourself with its schema (i.e., the tables, their columns, and the relationships between tables), which can be a great way to figure out what concepts are important and which terminology is common; understanding your data takes you a long way toward understanding a problem domain. If there are terms that are unfamiliar, you might even want to do some side research, so you understand a little bit of the context in which your work fits. (This process of gradual understanding has been necessary in every professional job I've ever started, since each one has been in an area of business very different from the previous ones. One of the great things about software skills is the number of areas in which they're applicable, but this means it's a lot likelier that switching jobs also means dramatically switching contexts.)
+
+In terms of functionality, your program will have to meet the following basic requirements.
+
+Search for continents in the database, given either a continent code, a name, or both, displaying all of the continents that exactly match the given characteristics.
+Add a new continent to the database, by specifying the various data points that describe them (except their primary key).
+Update an existing continent in the database, changing any of the various data points that describe them (except their primary key).
+Search for a country in the database, given either its country code, its name, or both, displaying all of the countries that exactly match the given characteristics.
+Add a new country to the database, by specifying the various data points that describe them (except their primary key).
+Update an existing country in the database, changing any of the various data points that describe them (except their primary key).
+Search for a region (a part of a country) in the database, given either its region code, its local code, its name, or some combination of them, displaying all of the regions that exactly match the given characteristics..
+Add a new region to the database, by specifying the various data points that describe them (except their primary key).
+Update an existing region in the database, changing any of the various data points that describe them (except their primary key).
